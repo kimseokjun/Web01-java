@@ -1,0 +1,22 @@
+package j06_조건;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		int num = 40;
+		
+		switch(num) {
+		case 10:
+			System.out.println("10 입니다.");
+		case 20:
+			System.out.println("20 입니다.");
+		case 30:
+			System.out.println("30 입니다");
+		case 40:
+			System.out.println("40 입니다");
+		case 50:
+			System.out.println("50 입니다.");
+		}
+	}
+
+}

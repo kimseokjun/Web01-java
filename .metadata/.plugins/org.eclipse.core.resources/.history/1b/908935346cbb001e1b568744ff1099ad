@@ -1,0 +1,45 @@
+package j06_조건;
+
+import java.util.Scanner;
+
+public class SwitchCase2 {
+	public static void main(String[] args) {
+		/*
+		 * 놀이기구 
+		 * 1. 자이로드롭 (170)
+		 * 2. 후룸라이드 (15)
+		 * 3. 바이킹 (160)
+		 * 4. 회전목마 (140)
+		 * 5. 관람차 (130)
+		 * 
+		 * 키를 입력하시오 : 140
+		 * 회전목마 탑승가능
+		 * 관람차 탑승가능
+		 * 커플 입장시 10% 할인
+		 * 
+		 * 
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		int height;
+		
+		System.out.print("키를 입력하시오 : ");
+		switch(height)
+		{
+		case 170:
+			System.out.println("자이로드롭 탑승가능");
+		case 160:
+			System.out.println("바이킹 탑승가능");
+		case 150:
+			System.out.println("후룸라이드 탑승가능");
+		case 140:
+			System.out.println("회전목마 탑승가능");
+		case 130:
+			System.out.println("관람차 탑승가능");
+		default:
+			System.out.println("커플 꺼져");
+		
+	
+			
+	}
+}

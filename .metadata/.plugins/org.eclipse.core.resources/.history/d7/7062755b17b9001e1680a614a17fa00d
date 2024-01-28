@@ -1,0 +1,8 @@
+package j03_연산자;
+
+public class Operation05 {
+	public static void main(String[] args) {
+		String str = "안녕";
+		System.out.println(str.length());
+	}
+}

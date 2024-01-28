@@ -1,0 +1,21 @@
+package j02_변수와상수;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		
+		final int MAX_NUMBER = 100;	// 선언시 초기화 해주어야함, 상수명은 대문자로 해주기
+		final int MIN_NUMBER = 0;
+		
+		int number = 10;
+		number = 30;
+	
+		
+		System.out.println("최댓값 : " + MAXNUMBER);
+		System.out.println("현재값 : " + number);
+		System.out.println("최댓값 : " + MINNUMBER);
+		
+		
+	}
+
+}

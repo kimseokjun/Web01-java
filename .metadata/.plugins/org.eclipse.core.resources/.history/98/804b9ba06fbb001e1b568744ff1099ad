@@ -1,0 +1,30 @@
+package j06_조건;
+
+import java.util.Scanner;
+
+public class While2 {
+
+	public static void main(String[] args) {
+		/*
+		 * 입장인원 : 7
+		 * 
+		 * 익명 1이 입장하셨습니다.
+		 * 익명 2이 입장하셨습니다.
+		 * 익명 3이 입장하셨습니다.
+		 * 익명 6이 입장하셨습니다.
+		 * 익명 5이 입장하셨습니다.
+		 * 익명 7이 입장하셨습니다.
+		 *
+		 */
+		
+		int i = 1;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("입장 인원 : ");
+		int totalperson = sc.nextInt();
+		while( i <totalperson+1) {
+			System.out.println("익명 " +i + "이 입장하셨습니다.");
+			i++;
+		}
+	}
+
+}

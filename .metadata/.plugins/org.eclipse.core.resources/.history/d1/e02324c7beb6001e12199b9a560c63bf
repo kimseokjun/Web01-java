@@ -1,0 +1,12 @@
+package j02_변수와상수;
+
+public class Cast {
+
+	public static void main(String[] args) {
+
+		char a = 'A'; //A = 65 아스키코드값
+		int b = a;
+		System.out.println(a);
+	}
+
+}

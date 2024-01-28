@@ -1,0 +1,11 @@
+package j01_출력;
+
+public class PrintTest {
+
+	public static void main(String[] args) {
+		System.out.println("김석준");// 출력후 줄바꿈해라
+		System.out.println("남자");
+		System.out.print("김석준1")	// 그냥 출력만해라
+		System.out.println("김석준2");
+	}
+}

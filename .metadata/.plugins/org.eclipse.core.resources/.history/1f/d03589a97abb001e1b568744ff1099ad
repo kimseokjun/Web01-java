@@ -1,0 +1,10 @@
+package java;
+
+public class practice {
+	public static void main(String[] args) {
+		
+		//인새
+		System.out.println("키오스크");
+		System.out.println("");
+	}
+}
