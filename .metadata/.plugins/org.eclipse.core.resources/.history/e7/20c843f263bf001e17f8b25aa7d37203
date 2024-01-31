@@ -1,0 +1,11 @@
+package j09_클래스;
+
+public class ComputerMain {
+
+	public static void main(String[] args) {
+		
+		System.out.println(new Computer());	//new 생성
+		System.out.println(new Computer());	//new 생성
+	}
+
+}

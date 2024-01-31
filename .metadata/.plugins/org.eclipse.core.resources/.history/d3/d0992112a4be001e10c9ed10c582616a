@@ -1,0 +1,56 @@
+package j08_메서드;
+
+import java.util.Scanner;
+
+public class Method4 {
+
+	public static void abc(String name, int age) {
+		System.out.println("이름은 " +name + "이고 나이는 " + age + "입니다.");
+	}
+	public static void abc(String name)
+	{
+		System.out.println("이름은 " +name + "입니다");
+		System.out.println("나이는 미입력입니다.");
+	}
+	public static void abc(int age)
+	{
+		System.out.println("나이는 " +age + "입니다");
+		System.out.println("이름은 미입력입니다.");
+	}
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("이름 : ");
+		String name = sc.nextLine();
+		System.out.print("나이 : ");
+		int age = sc.nextInt();
+		
+
+		if(name == null)
+		{
+			abc(age);
+		}
+		abc(name,age);
+		/*
+		 * <설문>
+		 * 이름 : 홍길동
+		 * 나이 : 18
+		 * 
+		 * 이름은 홍길동이고 나이는 18세 입니다.
+		 * 
+		 * 이름 : 홍길동
+		 * 나이 : 엔터
+		 * 이름은 홍길동입니다.
+		 * 나이는 미입력입니다.
+		 * 
+		 * 이름 : 엔터
+		 * 나이 : 20
+		 * 나이는 20세입니다.
+		 * 이름은 미입력입니다.
+		 * 오버로딩 무조건 사용
+		 * 
+		 */
+		
+	}
+
+}

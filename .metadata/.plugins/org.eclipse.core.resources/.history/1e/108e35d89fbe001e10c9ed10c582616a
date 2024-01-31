@@ -1,0 +1,7 @@
+package j08_메서드;
+
+public class Method3 {
+	public static void main(String[] args) {
+		
+	}
+}

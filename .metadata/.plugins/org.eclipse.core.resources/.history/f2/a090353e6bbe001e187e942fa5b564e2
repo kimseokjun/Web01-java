@@ -1,0 +1,30 @@
+package j07_반복.랜덤;
+
+import java.util.Random;
+import java.util.Scanner;
+import java.util.UUID;
+
+public class UUID2 {
+	public static void main(String[] args) {
+		/*
+		 * 이미지 첨부 : 강아지1.jpg
+		 * 저장된 이미지 : 강아지_UUID.jpg
+		 * 다운시 이미지명 : 강이지1_UUID.jpg
+		 */
+		
+		Scanner scanner = new Scanner(System.in);
+	
+		System.out.print("이미지 첨부 : ");
+		String image = scanner.next();
+		String downImage;
+		String savedImage = image.substring(0,image.indexOf(".")) 
+				+ "_"
+				+ UUID.randomUUID().toString()
+				+ image.substring(image.indexOf("."),image.length());
+		
+		System.out.println("저장된 이미지 : " + savedImage);
+		
+		downImage = savedImage.substring(0,savedImage.lastIndexOf("_"))
+				+ savedImage.substring(savedImage.indexOf(".",savedImage.length()));
+	}
+}

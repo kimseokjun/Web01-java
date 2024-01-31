@@ -1,0 +1,11 @@
+package j09_클래스;
+
+public class Computer {
+	
+	String name;
+	
+	void showInfo() {
+		System.out.println(name);
+	}
+	
+}

@@ -1,0 +1,15 @@
+package j09_클래스;
+
+public class ComputerMain {
+
+	public static void main(String[] args) {
+		
+		System.out.println(new Computer());	//new 생성
+		System.out.println(new Computer());	// 이 둘은 다르다.  주소가 다르다
+		
+		Computer address = new Computer();
+		System.out.println(address); 	//객체 주소
+		
+	}
+
+}

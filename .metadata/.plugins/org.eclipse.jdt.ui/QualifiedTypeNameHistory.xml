@@ -2,6 +2,17 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="j09_클래스.Computer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="j09_클래스.Car"/>
+    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
+    <fullyQualifiedTypeName name="j09_클래스.생성자.Constructor1"/>
+    <fullyQualifiedTypeName name="j09_클래스.생성자.Constructor2"/>
+    <fullyQualifiedTypeName name="j09_클래스.접근지정자.a.TestA_2"/>
+    <fullyQualifiedTypeName name="j09_클래스.접근지정자.a.TestA"/>
+    <fullyQualifiedTypeName name="j09_클래스.접근지정자.AccessModifierMain"/>
+    <fullyQualifiedTypeName name="j09_클래스.접근지정자.b.TestB"/>
 </qualifiedTypeNameHistroy>

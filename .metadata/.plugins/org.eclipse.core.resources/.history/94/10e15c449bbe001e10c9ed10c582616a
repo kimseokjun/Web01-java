@@ -1,0 +1,19 @@
+package j08_메서드;
+
+public class Method2 {
+
+	public static void test1()
+	{
+		System.out.println("테스트1 호출");
+	}
+	
+	public static void main(String[] args) {
+		
+		// 메소드 종류
+		
+		// 반환(리턴) 매개변수도 없는 메소드
+		test1();
+		
+	}
+
+}

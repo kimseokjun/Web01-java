@@ -1,0 +1,10 @@
+package j07_반복.랜덤;
+
+public class UUID1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

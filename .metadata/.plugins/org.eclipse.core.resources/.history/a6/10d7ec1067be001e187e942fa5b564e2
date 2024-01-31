@@ -1,0 +1,19 @@
+package j07_반복.랜덤;
+
+import java.util.UUID;
+
+public class UUID1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * UUID
+		 * 토큰(adsf-asdf-asdf-asdf)
+		 * OTP()
+		 * 
+		 */
+		
+		System.out.println(UUID.randomUUID().toString());
+	}
+
+}

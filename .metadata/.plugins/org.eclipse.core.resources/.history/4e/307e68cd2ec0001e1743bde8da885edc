@@ -1,0 +1,63 @@
+package j09_클래스.생성자;
+
+public class Constructor2 {
+	String name;
+	int age;
+	boolean wishWindow;
+	
+	
+	
+	public Constructor2(String name) {
+		super();
+		this.name = name;
+	}
+
+
+
+	public Constructor2(String name, boolean wishWindow) {
+		super();
+		this.name = name;
+		this.wishWindow = wishWindow;
+	}
+
+
+
+	public Constructor2(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
+
+
+	public Constructor2(boolean wishWindow) {
+		super();
+		this.wishWindow = wishWindow;
+	}
+
+
+
+	public Constructor2(int age) {
+		super();
+		this.age = age;
+	}
+
+
+
+	public Constructor2(String name, int age, boolean wishWindow) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.wishWindow = wishWindow;
+	}
+
+
+
+	public Constructor2() {
+		
+	}
+
+
+
+		
+}

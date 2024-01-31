@@ -1,0 +1,10 @@
+package j07_반복;
+
+public class Continue1 {
+	public static void main(String[] args) {
+
+		// 0부터 9까지 출력하는 반복문 작성
+
+		System.out.println("aa");
+	}
+}

@@ -1,0 +1,20 @@
+package j07_반복.랜덤;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class UUID2 {
+	public static void main(String[] args) {
+		/*
+		 * 이미지 첨부 : 강아지1.jpg
+		 * 저장된 이미지 : 강아지_UUID.jpg
+		 * 다운시 이미지명 : 강이지1_UUID.jpg
+		 */
+		
+		Scanner scanner = new Scanner(System.in);
+		Random random = new Random();
+		System.out.print("이미지 첨부 : ");
+		String image = scanner.nextLine();
+		
+	}
+}

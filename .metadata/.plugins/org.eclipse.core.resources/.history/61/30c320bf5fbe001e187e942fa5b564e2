@@ -1,0 +1,10 @@
+package j07_반복.랜덤;
+
+public class Random1 {
+
+	public static void main(String[] args) {
+
+		System.out.println(Math.random());
+	}
+
+}

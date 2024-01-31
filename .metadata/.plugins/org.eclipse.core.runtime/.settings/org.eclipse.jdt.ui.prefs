@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="j09_\uD074\uB798\uC2A4.\uC0DD\uC131\uC790.Constructor1"><rhs name\="j09_\uD074\uB798\uC2A4.\uC0DD\uC131\uC790.Constructor1"/></lhs><lhs name\="j09_\uD074\uB798\uC2A4.\uC0DD\uC131\uC790.Constructor2"><rhs name\="j09_\uD074\uB798\uC2A4.\uC0DD\uC131\uC790.Constructor2"/></lhs></history>
 content_assist_number_of_computers=15
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.formatterprofiles.version=23

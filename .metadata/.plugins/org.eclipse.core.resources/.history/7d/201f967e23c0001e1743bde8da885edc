@@ -1,0 +1,38 @@
+package j09_클래스;
+
+
+import java.util.Scanner;
+
+public class Car {
+	
+	String company;
+	String model;
+	String color;
+	
+	void showInfo() {
+		System.out.println("회사명 : " + company);
+		System.out.println("모델명 : " + model);
+		System.out.println("색상 : " + color);
+		System.out.println();
+	}
+	
+	void changeEngineOil() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("교체 후 주행거리 : ");
+		int distance = sc.nextInt();
+		System.out.println("희망주입량(L) : ");
+		int oil = sc.nextInt();
+		
+		if(distance < 9000) {
+			System.out.println("9000 km 가 안되었으면 9000km 주행 후 교체 하십시오.");
+		}
+		if(oil >= 5)
+			{
+				System.out.println("최대 5L 만 주입가능합니다.");
+				oil = 5;
+			}else {
+				System.out.println("주입량을 주입합니다.");
+			}
+		
+	}
+}

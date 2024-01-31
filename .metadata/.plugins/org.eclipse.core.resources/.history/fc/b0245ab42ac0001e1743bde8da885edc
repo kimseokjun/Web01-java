@@ -1,0 +1,13 @@
+package j09_클래스.생성자;
+
+public class Constructor1 {
+	
+	String name;
+	int age;
+	
+	protected Constructor1() {
+		System.out.println("기본생성자");
+	}
+	
+	public 
+}
