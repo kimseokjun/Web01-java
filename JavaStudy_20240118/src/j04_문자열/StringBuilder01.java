@@ -13,6 +13,6 @@ public class StringBuilder01 {
 		System.out.println(stringBuilder);
 		
 		stringBuilder2.append("hihi");
-		System.out.println(stringBuilder2.toString());
+		System.out.println(stringBuilder2);
 	}
 }

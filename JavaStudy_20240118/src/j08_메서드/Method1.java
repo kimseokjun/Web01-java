@@ -8,6 +8,9 @@ public class Method1 {
 		int num1 = 10; 
 		int num2 = 20;
 		
+		//Method1 method = new Method1();	//add함수에서 static을 지웠을때 add함수를 사용하는 방법
+		// method.add()
+		
 		int sum = add(num1, num2);
 		System.out.println(sum);
 	}

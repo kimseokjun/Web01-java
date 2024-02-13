@@ -8,15 +8,22 @@ public class Computer {
 	int ram;
 	String graphic;
 	
-	void showInfo() {
-		System.out.println("제조년 : " + year + "년");
-		System.out.println("제조사 : " + company);
-		System.out.println("CPU : " + cpu);
-		System.out.println("RAM : " + ram);
-		System.out.println("GraphicCard : " + graphic);
-		System.out.println();
-	}
 	
+	public Computer(int year, String company, String cpu, int ram, String graphic) {
+		super();
+		this.year = year;
+		this.company = company;
+		this.cpu = cpu;
+		this.ram = ram;
+		this.graphic = graphic;
+	}
+
+	@Override
+	public String toString() {
+		return "Computer [year=" + year + ", company=" + company + ", cpu=" + cpu + ", ram=" + ram + ", graphic="
+				+ graphic + "]";
+	}
+
 	void addRam(int gigaByte)
 	{
 		int overRam = ram;
