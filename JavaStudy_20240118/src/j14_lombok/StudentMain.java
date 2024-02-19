@@ -15,5 +15,5 @@ public class StudentMain {
 		Student student = new Student("홍길동",18);
 		System.out.println(student.getAge());
 	}
-
+	
 }
