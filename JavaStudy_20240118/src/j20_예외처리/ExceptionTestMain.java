@@ -6,7 +6,6 @@ public class ExceptionTestMain {
 		ExceptionTest2 exceptionTest2 = new ExceptionTest2();
 		ExceptionTest3 exceptionTest3 = new ExceptionTest3();
 		
-		
 		try {
 			exceptionTest2.printArray();
 			exceptionTest3.printArray();
